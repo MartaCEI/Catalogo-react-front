@@ -1,0 +1,6 @@
+{
+    "nombre": "Marta",
+    "edad": 18
+}
+
+// Para hacer el fetch es datos.json (Url)
