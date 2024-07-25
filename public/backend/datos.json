@@ -1,6 +1,43 @@
 {
-    "nombre": "Marta",
-    "edad": 18
+    "nombre": "RimWorld",
+    "description": "Rimwold es un juego que pone al jugador en el papel de gestor de una nueva colonia en un planeta del borde galáctico. Los peones deben sobrevivir a diversos eventos generados de manera aleatoria. Para asegurar la supervivencia de la colonia, el jugador debe manejar y equilibrar las diversas condiciones que garantizan el bienestar físico y mental de sus colonos, asegurándose de que haya comida, los colonos tengan habitaciones decentes, lleven ropa adecuada para el clima, etc.",
+    "productos": {
+        "armas":{
+            "image":,
+            "name":,
+            "type":,
+            "damage":,
+            "Ap":,
+            "range",
+            "DPS":,
+            "price":,
+        },
+        "DLCs":{
+            "image":,
+            "name": "",
+            "description":,
+            "price":"",
+        },
+        "armaduras":{
+            "image":,
+            "name": "",
+            "description":,
+            "type": {
+                "image":,
+                "coveraje":,
+                "name":,
+                "sharp":,
+                "blunt":,
+                "price":,
+                "images":{
+                    "head":,
+                    "body":,
+                    "legs":,
+                }
+            },
+        },
+    }
 }
 
 // Para hacer el fetch es datos.json (Url)
+//https://rimworldwiki.com/wiki/Armor
