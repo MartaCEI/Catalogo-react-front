@@ -1,0 +1,29 @@
+
+.Footer {
+    width: 100%;
+    background-color: aquamarine;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+
+.Footer-img {
+    width: 250px;
+    height: 100%;
+}
+
+.Nav {}
+
+.Nav-ul {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.Nav-li {
+    
+}

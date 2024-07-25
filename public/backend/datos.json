@@ -1,43 +1,86 @@
-{
-    "nombre": "RimWorld",
-    "description": "Rimwold es un juego que pone al jugador en el papel de gestor de una nueva colonia en un planeta del borde galáctico. Los peones deben sobrevivir a diversos eventos generados de manera aleatoria. Para asegurar la supervivencia de la colonia, el jugador debe manejar y equilibrar las diversas condiciones que garantizan el bienestar físico y mental de sus colonos, asegurándose de que haya comida, los colonos tengan habitaciones decentes, lleven ropa adecuada para el clima, etc.",
-    "productos": {
-        "armas":{
-            "image":,
-            "name":,
-            "type":,
-            "damage":,
-            "Ap":,
-            "range",
-            "DPS":,
-            "price":,
+{"home":
+    {
+        "description": "Rimwold es un juego que pone al jugador en el papel de gestor de una nueva colonia en un planeta del borde galáctico. Los peones deben sobrevivir a diversos eventos generados de manera aleatoria. Para asegurar la supervivencia de la colonia, el jugador debe manejar y equilibrar las diversas condiciones que garantizan el bienestar físico y mental de sus colonos, asegurándose de que haya comida, los colonos tengan habitaciones decentes, lleven ropa adecuada para el clima, etc.",
+        "arma":{
+            "image":"./backend/images/Colonists_preview.png",
+            "title":"Armas",
+            "description":"Weapons are used by colonists and raiders alike to fight each other (and sometimes to put down enraged animals). Weapons have several characteristics that make them useful in different combat situations."
         },
+        "DLC":{
+            "image":"./backend/images/GreatBow.png",
+            "title":"DLCs",
+            "description":"Weapons are used by colonists and raiders alike to fight each other (and sometimes to put down enraged animals). Weapons have several characteristics that make them useful in different combat situations."
+        },
+        "armadura":{
+            "image":"./backend/images/GreatBow.png",
+            "title":"DLCs",
+            "description":"Weapons are used by colonists and raiders alike to fight each other (and sometimes to put down enraged animals). Weapons have several characteristics that make them useful in different combat situations."
+        }
+    },
+
+
+    "productos": {
+        "armas":[
+            {
+                "id":1,
+                "image":"./backend/images/GreatBow.png",
+                "name":"GreatBow",
+                "type":"Range",
+                "damage":"",
+                "Ap":"",
+                "range":"",
+                "DPS":"",
+                "price":""
+            },
+            {
+                "id":2,
+                "image":"",
+                "name":"",
+                "type":"",
+                "damage":"",
+                "Ap":"",
+                "range":"",
+                "DPS":"",
+                "price":""
+            },
+            {
+                "id":3,
+                "image":"",
+                "name":"",
+                "type":"",
+                "damage":"",
+                "Ap":"",
+                "range":"",
+                "DPS":"",
+                "price":""
+            }
+        ],
         "DLCs":{
-            "image":,
+            "id":"",
+            "image":"",
             "name": "",
-            "description":,
-            "price":"",
+            "description":"",
+            "price":""
         },
         "armaduras":{
-            "image":,
+            "id":"",
+            "image":"",
             "name": "",
-            "description":,
+            "description":"",
             "type": {
-                "image":,
-                "coveraje":,
-                "name":,
-                "sharp":,
-                "blunt":,
-                "price":,
+                "id":"",
+                "image":"",
+                "coveraje":"",
+                "name":"",
+                "sharp":"",
+                "blunt":"",
+                "price":"",
                 "images":{
-                    "head":,
-                    "body":,
-                    "legs":,
+                    "head":"",
+                    "body":"",
+                    "legs":""
                 }
-            },
-        },
+            }
+        }
     }
 }
-
-// Para hacer el fetch es datos.json (Url)
-//https://rimworldwiki.com/wiki/Armor
