@@ -25,12 +25,12 @@ const Home = () => {
 
     return (
         <section className="Section">
-            <h1>Catalogo ({tema} - {nombre})</h1>
+            {/* <h1>Catalogo ({tema} - {nombre})</h1>
             <br />
             <button onClick={()=>{setTema(tema=="dark"?"light":"dark")}}>
                 Cambiar tema: {tema}
             </button>
-            <br />
+            <br /> */}
             <p className="Section-p">{section.description}</p>
             <div className="Section-div">
                 <Link to='/armaduras'><Grid {...section.arma} /></Link>
