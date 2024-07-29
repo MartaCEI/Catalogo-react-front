@@ -1,6 +1,4 @@
-
-
-const Grid = ({image,title, description}) => {
+const GridArmas = ({image, title}) => {
     return (
         <div className="Grid">
             <h2 className="Grid-h2">{title}</h2>

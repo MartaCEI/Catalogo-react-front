@@ -1,6 +1,7 @@
 import { useContext, useEffect, useState } from "react";
 import Grid from "../components/Grid";
 import { ModoOscuroContext } from "../Layout"
+import { Link } from "react-router-dom";
 
 const Home = () => {
     const [section,setSection] = useState({});
@@ -23,7 +24,7 @@ const Home = () => {
     }
 
     return (
-        <section>
+        <section className="Section">
             <h1>Catalogo ({tema} - {nombre})</h1>
             <br />
             <button onClick={()=>{setTema(tema=="dark"?"light":"dark")}}>
@@ -32,9 +33,9 @@ const Home = () => {
             <br />
             <p className="Section-p">{section.description}</p>
             <div className="Section-div">
-                <Grid {...section.arma} />
-                <Grid {...section.DLC} />
-                <Grid {...section.armadura} />
+                <Link to='/armaduras'><Grid {...section.arma} /></Link>
+                <Link to='/dlcs'><Grid {...section.DLC} /></Link>
+                <Link to='/armas'><Grid {...section.armadura} /></Link>
             </div>
         </section>
     )

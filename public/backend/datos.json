@@ -1,86 +1,129 @@
-{"home":
+{   
+    "home":
     {
         "description": "Rimwold es un juego que pone al jugador en el papel de gestor de una nueva colonia en un planeta del borde galáctico. Los peones deben sobrevivir a diversos eventos generados de manera aleatoria. Para asegurar la supervivencia de la colonia, el jugador debe manejar y equilibrar las diversas condiciones que garantizan el bienestar físico y mental de sus colonos, asegurándose de que haya comida, los colonos tengan habitaciones decentes, lleven ropa adecuada para el clima, etc.",
         "arma":{
-            "image":"./backend/images/Colonists_preview.png",
+            "image":"./backend/images/home/weapons_200px.png",
             "title":"Armas",
             "description":"Weapons are used by colonists and raiders alike to fight each other (and sometimes to put down enraged animals). Weapons have several characteristics that make them useful in different combat situations."
         },
         "DLC":{
-            "image":"./backend/images/GreatBow.png",
+            "image":"./backend/images/home/weapons_200px.png",
             "title":"DLCs",
-            "description":"Weapons are used by colonists and raiders alike to fight each other (and sometimes to put down enraged animals). Weapons have several characteristics that make them useful in different combat situations."
+            "description":"descripcion de los dlcs."
         },
         "armadura":{
-            "image":"./backend/images/GreatBow.png",
-            "title":"DLCs",
-            "description":"Weapons are used by colonists and raiders alike to fight each other (and sometimes to put down enraged animals). Weapons have several characteristics that make them useful in different combat situations."
+            "image":"./backend/images/home/armor_200px.png",
+            "title":"Armaduras",
+            "description":"descripcion de la página armaduras"
         }
     },
 
 
-    "productos": {
-        "armas":[
-            {
-                "id":1,
-                "image":"./backend/images/GreatBow.png",
-                "name":"GreatBow",
-                "type":"Range",
-                "damage":"",
-                "Ap":"",
-                "range":"",
-                "DPS":"",
-                "price":""
-            },
-            {
-                "id":2,
-                "image":"",
-                "name":"",
-                "type":"",
-                "damage":"",
-                "Ap":"",
-                "range":"",
-                "DPS":"",
-                "price":""
-            },
-            {
-                "id":3,
-                "image":"",
-                "name":"",
-                "type":"",
-                "damage":"",
-                "Ap":"",
-                "range":"",
-                "DPS":"",
-                "price":""
-            }
-        ],
-        "DLCs":{
-            "id":"",
-            "image":"",
-            "name": "",
-            "description":"",
+    "armas":[
+        {
+            "id":1,
+            "image":"./backend/images/armas/great_bow.png",
+            "name":"GreatBow",
+            "descripcion":"descripción",
+            "type":"Range",
+            "damage":"",
+            "Ap":"",
+            "range":"",
+            "DPS":"",
             "price":""
         },
-        "armaduras":{
+        {
+            "id":2,
+            "image":"./backend/images/armas/lmg.png",
+            "name":"LMG",
+            "descripcion":"descripción",
+            "type":"",
+            "damage":"",
+            "Ap":"",
+            "range":"",
+            "DPS":"",
+            "price":""
+        },
+        {
+            "id":3,
+            "image":"./backend/images/armas/chain_shotgun.png",
+            "name":"Chain Shotgun",
+            "descripcion":"descripción",
+            "type":"",
+            "damage":"",
+            "Ap":"",
+            "range":"",
+            "DPS":"",
+            "price":""
+        },
+        {
+            "id":4,
+            "image":"./backend/images/armas/frag_grenades.png",
+            "name":"Frag Granades",
+            "descripcion":"descripción",
+            "type":"",
+            "damage":"",
+            "Ap":"",
+            "range":"",
+            "DPS":"",
+            "price":""
+        },
+        {
+            "id":5,
+            "image":"./backend/images/armas/club.png",
+            "name":"Club",
+            "descripcion":"descripción",
+            "type":"",
+            "damage":"",
+            "Ap":"",
+            "range":"",
+            "DPS":"",
+            "price":""
+        },
+        {
+            "id":6,
+            "image":"./backend/images/armas/zeusHammer.png",
+            "name":"ZeusHammer",
+            "descripcion":"descripción",
+            "type":"",
+            "damage":"",
+            "Ap":"",
+            "range":"",
+            "DPS":"",
+            "price":""
+        }
+    ],
+
+
+    "DLCs":{
+        "id":"",
+        "image":"",
+        "name": "",
+        "description":"",
+        "price":""
+    },
+
+    
+    "armaduras":{
+        "id":"",
+        "image":"",
+        "name": "",
+        "description":"",
+        "type": {
             "id":"",
             "image":"",
-            "name": "",
-            "description":"",
-            "type": {
-                "id":"",
-                "image":"",
-                "coveraje":"",
-                "name":"",
-                "sharp":"",
-                "blunt":"",
-                "price":"",
-                "images":{
-                    "head":"",
-                    "body":"",
-                    "legs":""
-                }
+            "coveraje":"",
+            "name":"",
+            "sharp":"",
+            "blunt":"",
+            "price":"",
+            "images":{
+                "head":"",
+                "body":"",
+                "legs":""
             }
         }
     }
 }
+

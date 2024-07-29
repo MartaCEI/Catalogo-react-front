@@ -1,0 +1,42 @@
+.Title-h1 {
+    font-weight: 700;
+    font-size: 3em;
+    align-items: center;
+    text-align: center;
+    padding: 2rem;
+}
+
+.Section {
+    width: 90%;
+    margin: auto;
+    padding: 3rem 0;
+}
+
+.Section-p {
+    text-align: center;
+    padding: 0 0 3rem;
+}
+
+.Section-div {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 2rem;
+}
+
+.Grid {
+    padding: 1rem;
+    border: 1px solid black;
+    border-radius: 1rem;
+}
+
+.Grid-h2 {
+    font-size: 1.5em;
+}
+
+.Grid-p {
+
+}
+
+.Grid-img {
+
+}
