@@ -1,4 +1,5 @@
 const GridArmas = ({type, damage, Ap, range, DPS, price }) => {
+    // if armas esta off enseñar una tarjeta, sino, enseñar la otra.
     return (
         <div className="GridWrapper">
             <div className="GridArmas">

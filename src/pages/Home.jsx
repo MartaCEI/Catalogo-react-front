@@ -1,12 +1,12 @@
 import { useContext, useEffect, useState } from "react";
 import Grid from "../components/Grid";
-import { ModoOscuroContext } from "../Layout"
+// import { ModoOscuroContext } from "../Layout"
 import { Link } from "react-router-dom";
 
 const Home = () => {
     const [section,setSection] = useState({});
 
-    const {tema,setTema,nombre} = useContext(ModoOscuroContext);
+    // const {tema,setTema,nombre} = useContext(ModoOscuroContext);
     
     useEffect(() => {
         getSections();

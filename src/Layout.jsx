@@ -17,10 +17,10 @@ const Layout = () => {
             <Header />
             {/* importar Header como componente */}
             <main>
-                <h1 className="Title-h1">Rimworld</h1>
+                {/* <h1 className="Title-h1">Rimworld</h1>
                 <button onClick={()=>{setTema(tema=="dark"?"light":"dark")}}>
                 Cambiar tema: {tema}
-                </button>
+                </button> */}
                 <Outlet />
             </main>
             {/* importar Footer como componente */}

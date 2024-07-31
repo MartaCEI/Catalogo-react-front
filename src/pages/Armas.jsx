@@ -31,8 +31,9 @@ const Armas = () => {
                     section.map((section) => {
                         return (
                             <>
-                            <Grid key={section.id} {...section} />
-                            <GridArmas {...section} />
+                                <Grid key={section.id} {...section} />
+                                {variable && <GridArmas {...section} />}
+                                
                             </>
                         )
                     })
