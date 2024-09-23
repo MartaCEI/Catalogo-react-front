@@ -32,8 +32,7 @@ const Armas = () => {
                         return (
                             <>
                                 <Grid key={section.id} {...section} />
-                                {variable && <GridArmas {...section} />}
-                                
+                                <GridArmas {...section} />
                             </>
                         )
                     })
